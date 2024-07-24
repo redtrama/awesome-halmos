@@ -1,7 +1,7 @@
 # Awesome-halmos
 
-Github: [halmos](https://github.com/a16z/halmos/)
-Telegram chat: [halmos Telegram]([halmos Telegram Group](https://t.me/+4UhzHduai3MzZmUx))
+Github: [halmos](https://github.com/a16z/halmos/).
+Telegram chat: [halmos Telegram]([halmos Telegram Group](https://t.me/+4UhzHduai3MzZmUx)).
 
 ### halmos Knowledge base
 
