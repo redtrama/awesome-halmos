@@ -1,7 +1,9 @@
 # Awesome-halmos
 
-Github: [halmos](https://github.com/a16z/halmos/).
-Telegram chat: [halmos Telegram]([halmos Telegram Group](https://t.me/+4UhzHduai3MzZmUx)).
+A curated list of resources on Halmos, featuring blogs, videos, code repositories, and practical examples.
+
+- Github: [halmos](https://github.com/a16z/halmos/).
+- Telegram chat: [halmos Telegram](https://t.me/+4UhzHduai3MzZmUx).
 
 ### halmos Knowledge base
 
