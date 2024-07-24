@@ -2,10 +2,11 @@
 
 A curated list of resources on Halmos, featuring blogs, videos, code repositories, and practical examples.
 
+## halmos
 - Github: [halmos](https://github.com/a16z/halmos/).
 - Telegram chat: [halmos Telegram](https://t.me/+4UhzHduai3MzZmUx).
 
-### halmos Knowledge base
+## halmos Knowledge base
 
 - [halmos Getting Started](https://github.com/a16z/halmos/blob/main/docs/getting-started.md): Begginer guide to understand how halmos works.
 - [Invariant Testing with halmos by a16z](https://a16zcrypto.com/posts/article/implementing-stateful-invariant-testing-with-halmos/): From invariant testing to Formal verification
@@ -19,7 +20,7 @@ A curated list of resources on Halmos, featuring blogs, videos, code repositorie
 - [@daejunpark X Thread: My halmos usage #1](https://x.com/daejunpark/status/1744788041078829432): usaging halmos for equivalence check.
 - [@0xkarmacoma X Thread: Solving CurtaCTF with halmos](https://x.com/0xkarmacoma/status/1632551527729758208?s=12&t=FF8FHzY8myIvLlgyCS0FXQ): How karmacoma used halmos for solving a curtaCTF.
 
-### Test Examples
+## Test Examples
 
 - [halmos Sandbox](https://github.com/karmacoma-eth/halmos-sandbox/): A repository with +90 halmos test examples.
 - [halmos Solady](https://github.com/zobront/halmos-solady): Examples of halmos tests for the Solady library.
@@ -32,7 +33,7 @@ A curated list of resources on Halmos, featuring blogs, videos, code repositorie
 - [SignatureChecker Equivalence Check](https://github.com/devtooligan/provesigchecker/blob/main/test/test.sol): Equivalence check between OpenZeppelin and Solady's SignatureChecker.
 - [Snekmate Tests](https://github.com/pcaversaccio/snekmate/tree/main/test): Halmos test on Snakemate repo.
 
-### Projects Using halmos
+## Projects Using halmos
 
 - [Farcaster Key Registry](https://github.com/farcasterxyz/contracts/blob/e56b5765ca28a7df149fb434315df0188a6ab14a/test/KeyRegistry/KeyRegistry.st.sol): Symbolic tests for the Farcaster Key Registry.
 - [Morpho Data Structure](https://github.com/morpho-org/morpho-data-structures/blob/7f40c102e6bb852746d0d3c2f97ac3f39dae3c9c/test/TestLogarithmicBuckets.t.sol#L121-L182): Symbolic tests for Morpho's data structures.
