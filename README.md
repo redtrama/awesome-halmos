@@ -1,28 +1,37 @@
-## Awesome-Halmos
+# Awesome-halmos
 
-Repo: [Halmos](https://github.com/a16z/halmos/)
-Telegram chat: [Halmos Telegram]([Halmos Telegram Group](https://t.me/+4UhzHduai3MzZmUx))
+Github: [halmos](https://github.com/a16z/halmos/)
+Telegram chat: [halmos Telegram]([halmos Telegram Group](https://t.me/+4UhzHduai3MzZmUx))
 
-### Tutorials
-- [Getting Started with Halmos](https://github.com/a16z/halmos/blob/main/docs/getting-started.md): Begginer guide from halmos repo.
-- [Stateful Invariant Testing](https://a16zcrypto.com/posts/article/implementing-stateful-invariant-testing-with-halmos/): From invariant testing to Formal verification
-- [Leveraging Existing Tests](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/): How to level-up your existing tests with symbolic execution.
-- [From Fuzz to Symbolic Tests](https://www.youtube.com/watch?v=pjwYr97Q-Ok) (Video by Patrick Collins): A video tutorial on transitioning from fuzz testing to symbolic testing.
-- [Testing WSL with Halmos](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos-wsl?lesson_format=video) (Video by Cyfrin): A video guide on testing with WSL and Halmos.
+### halmos Knowledge base
+
+- [halmos Getting Started](https://github.com/a16z/halmos/blob/main/docs/getting-started.md): Begginer guide to understand how halmos works.
+- [Invariant Testing with halmos by a16z](https://a16zcrypto.com/posts/article/implementing-stateful-invariant-testing-with-halmos/): From invariant testing to Formal verification
+- [Leveraging Existing Tests by a16z](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/): How to level-up your existing tests with symbolic execution.
+- [Beyond Fuzzing Symbolic Testing in Practice by Karmacoma](https://www.youtube.com/watch?v=GFCjG5KOetM): Understanding path explosion.
+- [From Fuzz to Symbolic Tests by Patrick Collins](https://www.youtube.com/watch?v=pjwYr97Q-Ok) : A video tutorial on transitioning from fuzz to symbolic testing.
+- [Path Explosion and Timeout by Cyfrin](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos-mulwadup?lesson_format=video): Understanding path explosion and timeouts.
+- [Setting First Test with halmos by Cyfrin](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos?lesson_format=video): A video tutorial on setting up your first halmos test.
+- [Testing WSL with halmos by Cyfrin](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos-wsl?lesson_format=video) :A video guide on testing WSL function.
+- [@zachobront X Thread: Solady FixedPointMathLib Testing](https://x.com/zachobront/status/1633906650514898947): Solady and Solmate equivalence check.
+- [@daejunpark X Thread: My halmos usage #1](https://x.com/daejunpark/status/1744788041078829432): usaging halmos for equivalence check.
+- [@0xkarmacoma X Thread: Solving CurtaCTF with halmos](https://x.com/0xkarmacoma/status/1632551527729758208?s=12&t=FF8FHzY8myIvLlgyCS0FXQ): How karmacoma used halmos for solving a curtaCTF.
 
 ### Test Examples
-- [Halmos Sandbox](https://github.com/karmacoma-eth/halmos-sandbox/): A repository with over 90 Halmos test examples.
-- [Halmos Solady](https://github.com/zobront/halmos-solady): Examples of Halmos tests for the Solady library.
-- [ERC20 Symbolic Tests](https://github.com/a16z/halmos/tree/main/examples/tokens/ERC20): Symbolic tests for ERC20 tokens using Solady, Solmate, and OpenZeppelin.
-- [ERC721 Symbolic Tests](https://github.com/a16z/halmos/tree/main/examples/tokens/ERC721): Symbolic tests for ERC721 tokens using Solady, Solmate, and OpenZeppelin.
-- [WETH Symbolic Testing](https://github.com/horsefacts/weth-invariant-testing/blob/main/test/WETH9.symbolic.t.sol): Invariant testing for WETH9.
+
+- [halmos Sandbox](https://github.com/karmacoma-eth/halmos-sandbox/): A repository with +90 halmos test examples.
+- [halmos Solady](https://github.com/zobront/halmos-solady): Examples of halmos tests for the Solady library.
+- [ERC20 Symbolic Tests](https://github.com/a16z/halmos/tree/main/examples/tokens/ERC20): Symbolic tests for Solady, Solmate, and OpenZeppelin ERC20 tokens.
+- [ERC721 Symbolic Tests](https://github.com/a16z/halmos/tree/main/examples/tokens/ERC721): Symbolic tests for Solady, Solmate, and OpenZeppelin ERC721 tokens.
+- [WETH Symbolic Testing by horsefacts](https://github.com/horsefacts/weth-invariant-testing/blob/main/test/WETH9.symbolic.t.sol): Symbolic testing for WETH9 contract.
 - [Property-Based Testing Benchmark](https://github.com/aviggiano/property-based-testing-benchmark): Benchmarks for property-based testing.
 - [DEI Stablecoin Symbolic Test](https://github.com/a16z/halmos/blob/main/examples/tokens/ERC20/test/DEIStablecoin.t.sol): Symbolic tests for the DEI Stablecoin.
 - [Curve Token V3 Symbolic Test](https://github.com/a16z/halmos/blob/main/examples/tokens/ERC20/test/CurveTokenV3.t.sol): Symbolic tests for Curve Token V3.
 - [SignatureChecker Equivalence Check](https://github.com/devtooligan/provesigchecker/blob/main/test/test.sol): Equivalence check between OpenZeppelin and Solady's SignatureChecker.
-- [Snekmate Halmos Tests](https://github.com/pcaversaccio/snekmate/tree/main/test): Various Halmos tests by Snekmate.
+- [Snekmate Tests](https://github.com/pcaversaccio/snekmate/tree/main/test): Halmos test on Snakemate repo.
 
-### Projects Using Halmos
+### Projects Using halmos
+
 - [Farcaster Key Registry](https://github.com/farcasterxyz/contracts/blob/e56b5765ca28a7df149fb434315df0188a6ab14a/test/KeyRegistry/KeyRegistry.st.sol): Symbolic tests for the Farcaster Key Registry.
 - [Morpho Data Structure](https://github.com/morpho-org/morpho-data-structures/blob/7f40c102e6bb852746d0d3c2f97ac3f39dae3c9c/test/TestLogarithmicBuckets.t.sol#L121-L182): Symbolic tests for Morpho's data structures.
 - [Cicada](https://github.com/a16z/cicada): Verifying Cicada's big number arithmetic library with symbolic tests.
@@ -31,14 +40,3 @@ Telegram chat: [Halmos Telegram]([Halmos Telegram Group](https://t.me/+4UhzHduai
 - [Farcaster](https://github.com/farcasterxyz/contracts): Verifying Farcaster's onchain registry contracts.
   - [IdRegistrySymTest](https://github.com/farcasterxyz/contracts/blob/e56b5765ca28a7df149fb434315df0188a6ab14a/test/IdRegistry/IdRegistry.st.sol): Symbolic tests for IdRegistry.
   - [KeyRegistrySymTest](https://github.com/farcasterxyz/contracts/blob/e56b5765ca28a7df149fb434315df0188a6ab14a/test/KeyRegistry/KeyRegistry.st.sol): Symbolic tests for KeyRegistry.
-- [Solady Verification](https://github.com/zobront/halmos-solady): Verifying Solady's fixed-point math library with symbolic tests.
-
-### Twitter Threads
-- [Zachbront on Halmos](https://x.com/zachobront/status/1633906650514898947): Insights and updates on Halmos.
-- [Equivalence Checking](https://x.com/daejunpark/status/1744788041078829432): Discussion on equivalence checking in Halmos.
-- [Solving Real CTF with Halmos](https://x.com/0xkarmacoma/status/1632551527729758208?s=12&t=FF8FHzY8myIvLlgyCS0FXQ): How Halmos was used to solve a @curtaCTF .
-
-### Videos
-- [Graphic Explanation about Halmos Path Explosion](https://www.youtube.com/watch?v=GFCjG5KOetM): Understanding path explosion in Halmos.
-- [Setting First Test with Halmos](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos?lesson_format=video): A video tutorial on setting up your first Halmos test.
-- [Path Explosion and Timeout](https://updraft.cyfrin.io/courses/formal-verification/math-masters/halmos-mulwadup?lesson_format=video): Dealing with path explosion and timeouts in Halmos.
