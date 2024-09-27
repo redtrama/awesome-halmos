@@ -35,6 +35,7 @@ A curated list of resources on halmos, featuring blogs, videos, code repositorie
 - [DEI Stablecoin Symbolic Test](https://github.com/a16z/halmos/blob/main/examples/tokens/ERC20/test/DEIStablecoin.t.sol): Symbolic tests for the DEI Stablecoin.
 - [Curve Token V3 Symbolic Test](https://github.com/a16z/halmos/blob/main/examples/tokens/ERC20/test/CurveTokenV3.t.sol): Symbolic tests for Curve Token V3.
 - [SignatureChecker Equivalence Check](https://github.com/devtooligan/provesigchecker/blob/main/test/test.sol): Equivalence check between OpenZeppelin and Solady's SignatureChecker.
+- [ERC20 Differential Tests by Antonio Viggiano](https://github.com/aviggiano/halmos-differential-erc20): Halmos Differential Tests for OpenZeppelin, Solady, and Solmate ERC-20 Token Implementations.
 
 ## Projects Using halmos
 
