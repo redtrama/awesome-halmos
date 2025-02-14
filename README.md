@@ -15,6 +15,7 @@ A curated list of resources on halmos, featuring blogs, videos, code repositorie
 - [@zachobront X Thread: Solady FixedPointMathLib Testing](https://x.com/zachobront/status/1633906650514898947): Solady and Solmate equivalence check.
 - [@daejunpark X Thread: My halmos usage #1](https://x.com/daejunpark/status/1744788041078829432): using halmos for equivalence check.
 - [@0xkarmacoma X Thread: Solving CurtaCTF with halmos](https://x.com/0xkarmacoma/status/1632551527729758208?s=12&t=FF8FHzY8myIvLlgyCS0FXQ): How karmacoma used halmos for solving a curtaCTF.
+- [Halmos vs Damn Vulnerable Defi](https://github.com/igorganich/damn-vulnerable-defi-halmos): A series of writeups on solving Damn Vunerable DeFi CTF with Halmos.
 
 ## Videos
 
