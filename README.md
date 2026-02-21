@@ -16,6 +16,7 @@ A curated list of resources on halmos, featuring blogs, videos, code repositorie
 - [@daejunpark X Thread: My halmos usage #1](https://x.com/daejunpark/status/1744788041078829432): using halmos for equivalence check.
 - [@0xkarmacoma X Thread: Solving CurtaCTF with halmos](https://x.com/0xkarmacoma/status/1632551527729758208?s=12&t=FF8FHzY8myIvLlgyCS0FXQ): How karmacoma used halmos for solving a curtaCTF.
 - [Halmos vs Damn Vulnerable Defi](https://github.com/igorganich/damn-vulnerable-defi-halmos): A series of writeups on solving Damn Vunerable DeFi CTF with Halmos.
+- [halmos-skill for Claude Code](https://github.com/raccoon-labs-xyz/claude-skills/tree/main/plugins/halmos-skill): A Claude Code skill for symbolic testing for EVM contracts with Halmos + Foundry.
 
 ## Videos
 
